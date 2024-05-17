@@ -1,0 +1,66 @@
+Instructions
+
+In this lab, we will learn to define a struct data type and use it to form an array of struct type.
+
+Your program will implement the preparation routine used in a card game, called Hearts. To play the game, first your program will create a deck of (52) cards:
+
+Each card is described by its suit, value, and points in game. Define a structured data type CardType with the following components: suit (string type with values: "Diamond", "Club", "Heart", and "Spade"), value (int), and points (int).
+
+Define a function FormCards that creates the deck of cards:
+The deck of cards should be represented as an array of CardType. The size of the array is 52. Each card is described by its suit, value, and points in game. A card value is the face value of the card which is from 1 to 13, i.e., 11 for Jack, 12 for Queen, and 13 for King. For card points in game, all the cards of HEART suit have points: each HEARTS card of less than 10 face value has 5 points; HEARTS of 10, Jack, Queen, and King have 10 points. All Spade, Diamond, and Club cards have a value 0, except that the Queen of Spade has a point of 100, Jack of Diamond has a point of -100. Special Requirements The card array should be declared in the main function, Your main function calls the following two functions: A function "FormCards" that forms the deck of cards, and A second function "DisplayCards" to display the cards on screen.
+Here is an example output of the program:
+
+Here is the deck of cards:
+  SUIT        VALUE        POINTS
+  Diamond         A             0
+  Diamond         2             0
+  Diamond         3             0
+  Diamond         4             0
+  Diamond         5             0
+  Diamond         6             0
+  Diamond         7             0
+  Diamond         8             0
+  Diamond         9             0
+  Diamond        10             0
+  Diamond         J          -100
+  Diamond         Q             0
+  Diamond         K             0
+  Club            A             0
+  Club            2             0
+  Club            3             0
+  Club            4             0
+  Club            5             0
+  Club            6             0
+  Club            7             0
+  Club            8             0
+  Club            9             0
+  Club           10             0
+  Club            J             0
+  Club            Q             0
+  Club            K             0
+  Heart           A             5
+  Heart           2             5
+  Heart           3             5
+  Heart           4             5
+  Heart           5             5
+  Heart           6             5
+  Heart           7             5
+  Heart           8             5
+  Heart           9             5
+  Heart          10            10
+  Heart           J            10
+  Heart           Q            10
+  Heart           K            10
+  Spade           A             0
+  Spade           2             0
+  Spade           3             0
+  Spade           4             0
+  Spade           5             0
+  Spade           6             0
+  Spade           7             0
+  Spade           8             0
+  Spade           9             0
+  Spade          10             0
+  Spade           J             0
+  Spade           Q           100
+  Spade           K             0
