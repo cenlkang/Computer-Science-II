@@ -1,0 +1,35 @@
+Programming Problem One
+
+Write a C++ program that prompts the user to enter the number of credit hours earned sofar and displays his/her corresponding category:
+
+Freshman: students with <= 15 credit hours earned
+Sophomore: 15 < credit hours earned <= 45
+Junior: 45 < credit hours earned <= 75
+Senior: 75 < credit hours earned
+If the user input is not valid, i.e., credit hours entered < 0, an error message should be displayed. You are required to use the multi-way decision statement, i.e., the if-else if-else, statement for this problem.
+
+Here are a few example runs of the program:
+
+Sample run 1
+
+Please enter your total credit hours earned: 30
+
+You are a Sophomore.
+
+Sample run 2
+
+Please enter your total credit hours earned: 82
+
+You are a Senior.
+
+Sample run 3
+
+Please enter your total credit hours earned: 12
+
+You are a Freshman.
+
+Sample run 4
+
+Please enter your total credit hours earned: -10
+
+Invalid input.
