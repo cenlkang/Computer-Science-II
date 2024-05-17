@@ -2,4 +2,4 @@
  3 Main branches includes: 
   ----- Lecture notes
   ----- Closed Labs
-  ----- OPen Labs
+  ----- Open Labs
